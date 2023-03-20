@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _New_Machines
+  label: New Machines
+  create: all
+  match: "**/*"
+- type: directory
   path: _Used_Machines
   label: Used Machines
   create: all
